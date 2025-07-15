@@ -1,7 +1,8 @@
 {
   "name": "hono-bun",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/server.ts",
+    "client": "bun run --hot src/client.mts"
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.5.2",
